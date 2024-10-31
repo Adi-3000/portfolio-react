@@ -1,0 +1,69 @@
+.home {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    min-height: 80dvh;
+    gap: 2rem;
+  }
+  .card{
+    width: 40%;
+    height: 100%;
+
+      img {
+       width:  100%;
+       height:  100%;
+       border-radius: 50%;
+     }
+  }
+  .text {
+    width: 40%;
+    font-family: 'Raleway', sans-serif;
+    padding: 3em 2em;
+    font-size: 1vw;
+    color: #aaa;
+    .name{
+        
+        font-weight: 800;
+        color: #727272;
+    }
+      h1 {
+        font-size: 2em;
+        margin: 0.5em 0;
+      }
+      
+  h1,h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+  }
+  h1 { font-size: 3.5em; }
+  h2 {
+    color: #888;
+    font-size: 2em;
+  }
+  }
+  
+  
+  
+  .wrap {
+    border-right: 0.08em solid #666;
+    transition: color 0.4s ease-in-out;
+  }
+  
+  @media screen and (max-width: 767px){
+    .home{
+      flex-direction: column;
+    }
+    .card{
+      margin-top: 20%;
+      width: 50%;
+      height: 50%;
+    }
+    .text{
+      width: 60%;
+      font-size: 1.6vw;
+    }
+  }

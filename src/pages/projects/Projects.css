@@ -1,0 +1,22 @@
+.projects {
+    margin: 3vw;
+    padding-left: 1.2vw;
+    width: 80vw;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 767px){
+    
+    .projects {
+        padding-top: 10dvh;
+      padding-bottom: 13vh;
+      .article-wrapper{
+        margin-bottom: 7.2vw;
+      }
+    }
+    }

@@ -1,0 +1,30 @@
+.skills {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .skillset {
+    display: flex;
+        flex-flow: row wrap;
+        gap: 3vh;
+        width: 65vw;
+        align-items: center;
+        justify-content: center;
+  }
+  
+  .sktitle {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #aaa;
+    font-family: Hack, monospace;
+
+  }
+  
+  .underline {
+    width: 80px;
+    height: 3px;
+    background-color: #aaa;
+    margin: 10px auto;
+    margin-bottom: 30px;
+  }
+  

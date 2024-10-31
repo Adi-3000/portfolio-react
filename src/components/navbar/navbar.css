@@ -1,0 +1,58 @@
+
+nav {
+    font-family: Hack, monospace;
+
+    .menuItems {
+        list-style: none;
+        display: flex;
+
+        >li {
+          margin: 2.2vw;
+
+
+            >a {
+                text-decoration: none;
+                font-size: 1.4vw;
+
+                font-weight: 400;
+                transition: all 0.4s ease-in-out;
+                position: relative;
+                text-transform: uppercase;
+
+                &::before {
+                    content: attr(data-item);
+                    transition: 0.3s;
+                    color: #000000;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    width: 0;
+                    overflow: hidden;
+                }
+
+                &:hover {
+                    &::before {
+                        width: 100%;
+                        transition: all 0.4s ease-in-out;
+                    }
+                }
+                
+            }
+        }
+    }
+    
+}
+
+a {
+    color: #aaa;
+   
+}
+.active {
+    color: #000000;
+  }
+
+
+
+
