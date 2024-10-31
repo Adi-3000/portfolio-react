@@ -4,7 +4,7 @@ import Skills from '../Skills/Skills';
 
 function About() {
   const [text, setText] = useState('');
-  const fullText = "Hii,I am Aaditya and i am a developer,Currently persuing BE in CSE department and looking for an opportunity to grow and learn new things while putting it to work in real world.";
+  const fullText = "Hii,I am Aaditya and i am a full stack web developer,finished BE in CSE department, I like learing new things and putting it to real world use, looking for an opportunity to grow and learn new things.";
   const typingSpeed = 50; 
 
   useEffect(() => {

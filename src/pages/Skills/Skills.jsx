@@ -1,21 +1,20 @@
-import React from 'react';
 import './Skills.css';
 import SkillCard from '../../components/skillcard/SkillCard';
 
 function Skills() {
   const skillData = [
-      { skillName: "Mongo", percentage: "85%", imageSrc: "public/pictures/mongo.png" },
-      { skillName: "Express", percentage: "75%", imageSrc: "public/pictures/experss.png" },
-      { skillName: "React", percentage: "90%", imageSrc: "public/pictures/react.png" },
-      { skillName: "Node", percentage: "65%", imageSrc: "public/pictures/node.png" },
-    { skillName: "C++", percentage: "85%", imageSrc: "public/pictures/cpp.png" },
-    { skillName: "Java", percentage: "68%", imageSrc: "public/pictures/java.png" },
-    { skillName: "Python", percentage: "57%", imageSrc: "public/pictures/python.png" },
-    { skillName: "PHP", percentage: "63%", imageSrc: "public/pictures/php.png" },
-    { skillName: "HTML", percentage: "85%", imageSrc: "public/pictures/html.png" },
-    { skillName: "CSS", percentage: "82%", imageSrc: "public/pictures/css.png" },
-    { skillName: "JavaScript", percentage: "72%", imageSrc: "public/pictures/js.png" },
-    { skillName: "Bootstrap", percentage: "76%", imageSrc: "public/pictures/bootstrap.png" },
+      { skillName: "Mongo", percentage: "85%", imageSrc: "/pictures/mongo.png" },
+      { skillName: "Express", percentage: "75%", imageSrc: "/pictures/experss.png" },
+      { skillName: "React", percentage: "90%", imageSrc: "/pictures/react.png" },
+      { skillName: "Node", percentage: "65%", imageSrc: "/pictures/node.png" },
+    { skillName: "C++", percentage: "85%", imageSrc: "/pictures/cpp.png" },
+    { skillName: "Java", percentage: "68%", imageSrc: "/pictures/java.png" },
+    { skillName: "Python", percentage: "57%", imageSrc: "/pictures/python.png" },
+    { skillName: "PHP", percentage: "63%", imageSrc: "/pictures/php.png" },
+    { skillName: "HTML", percentage: "85%", imageSrc: "/pictures/html.png" },
+    { skillName: "CSS", percentage: "82%", imageSrc: "/pictures/css.png" },
+    { skillName: "JavaScript", percentage: "72%", imageSrc: "/pictures/js.png" },
+    { skillName: "Bootstrap", percentage: "76%", imageSrc: "/pictures/bootstrap.png" },
   ];
 
   return (
