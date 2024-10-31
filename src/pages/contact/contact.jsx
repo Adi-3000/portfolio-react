@@ -47,7 +47,7 @@ const Contact = () => {
     return (
         <div className="contact">
             {!submitted ? (
-                <div>
+                <div >
 
                     <form id="form" className="form" onSubmit={handleSubmit}>
                         <div className="title">Wana talk?,<br /><span>lets do it</span></div>

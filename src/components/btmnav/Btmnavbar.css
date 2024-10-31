@@ -52,6 +52,8 @@
   background: #eee;
   justify-content: flex-start;
   transition: all 0.5s ease-in-out;
+  display: flex;
+  flex-direction: row;
 }
 
 .nav-item.active .nav-text {
@@ -63,6 +65,8 @@
 .nav-item.active .material-icons {
   color: #000000;
   transform: translateX(-5px); 
+  margin-left: auto;
+
 }
 
 @keyframes slideIn {

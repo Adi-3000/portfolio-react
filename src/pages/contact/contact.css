@@ -1,3 +1,11 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
 .form {
   --input-focus: #aaa;
   --font-color: #323232;
@@ -87,7 +95,7 @@
   }
 }
 
-/*contact us icons*/
+/*contact  icons*/
 
 
 .share {
@@ -150,7 +158,8 @@ a {
 @media screen and (max-width: 767px) {
 
   .contact {
-    margin-top: 8vh;
+  height: 90dvh;
+
   }
 
   .form {
@@ -161,7 +170,8 @@ a {
       font-size: 7vw;
     }
   }
-  .share{
+
+  .share {
     margin-top: 2em;
   }
 }
